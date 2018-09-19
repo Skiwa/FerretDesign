@@ -1,0 +1,32 @@
+$primary : #c14545;
+$secondary: #ea4c4c;
+$dark: #703b3b;
+$light: #faf4d0;
+
+#counter{
+  background-color: $secondary;
+  div{
+    color: white;
+    padding: 1%;
+    position: relative;
+    p{
+      font-size: 1.6em;
+      font-family: Raleway, sans-serif;
+      strong{
+        font-weight: 600;
+      }
+    }
+    img{
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 0;
+      opacity: 0.2;
+      pointer-events: none;
+    }
+    #counterNumber{
+      font-size: 10em;
+      font-weight: bolder;
+    }
+  }
+}

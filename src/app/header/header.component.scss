@@ -1,0 +1,47 @@
+$primary : #c14545;
+$secondary: #ea4c4c;
+$dark: #703b3b;
+$light: #faf4d0;
+nav{
+  background: transparent;
+  box-shadow: none;
+  padding: 1.5% 3%;
+  line-height: 45px;
+  .nav-wrapper{
+    a{
+      img{
+        height: 4em;
+        margin-left: 50%;
+        opacity: 0.95;
+        transform: rotateY(180deg);
+      }
+    }
+    ul{
+      li {
+        a{
+          text-transform: uppercase;
+          font-size: 1.5em;
+          position: relative;
+        }
+        .dotLink::after{
+          content: '';
+          position: absolute;
+          background-color: white;
+          border-radius: 50%;
+          top: calc(50% - .1vw);
+          right: 0;
+          height: .2vw;
+          width: .2vw;
+        }
+      }
+      .contactButton{
+        border: solid lighten($secondary, 5%) 1px;
+        background: rgba(255,255,255,0.1);
+        a{
+          color: lighten($secondary, 0%);
+          text-shadow: 1px 1px rgba(0,0,0,0.1);
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import 'node_modules/materialize-css/dist/css/materialize.min.css'
 
 @Component({
   selector: 'app-root',
