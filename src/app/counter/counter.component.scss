@@ -9,11 +9,21 @@ $light: #faf4d0;
     color: white;
     padding: 1%;
     position: relative;
+
+
     p{
       font-size: 1.6em;
       font-family: Raleway, sans-serif;
       strong{
         font-weight: 600;
+        &::selection{
+          background-color: fade_out(white, .2);
+          color: $secondary;
+        }
+      }
+      &::selection{
+        background-color: fade_out(white, .2);
+        color: black;
       }
     }
     img{

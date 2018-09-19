@@ -10,10 +10,6 @@
     color: #EA4C4C;
   }
     .grid{
-      display: grid;
-      grid-auto-flow: row;
-      grid-template-rows: 1fr;
-      grid-template-columns: repeat(4, 1fr);
       div{
         .gridCell{
           margin: 10% 2%;

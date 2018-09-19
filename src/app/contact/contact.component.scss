@@ -12,6 +12,11 @@ $light: #faf4d0;
       font-weight: 600;
       color: lighten($light, 30%);
       margin-top: 0;
+
+      &::selection{
+        background-color: fade_out(white, .2);
+        color: $secondary;
+      }
     }
     input{
       font-size: 1.3em;

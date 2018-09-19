@@ -10,7 +10,7 @@ nav{
   .nav-wrapper{
     a{
       img{
-        height: 4em;
+        height: 3.5em;
         margin-left: 50%;
         opacity: 0.95;
         transform: rotateY(180deg);
@@ -40,6 +40,9 @@ nav{
         a{
           color: lighten($secondary, 0%);
           text-shadow: 1px 1px rgba(0,0,0,0.1);
+          &::selection{
+            background-color: fade_out(white, .2);
+          }
         }
       }
     }

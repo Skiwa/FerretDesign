@@ -53,25 +53,19 @@ $lightgrey : #848484;
     .s3{
       h4{
         color: $darkgrey;
-        font-size: 3em;
-        margin-bottom: 7.5%;
-        margin-top: 0;
+        font-size: 2.7em;
+        margin-bottom: 10%;
+        margin-top: 15%;
       }
-      address{
-        span{
+      span{
           color: $lightgrey;
-          font-size: 1.5em;
+          font-size: 1.3em;
           font-style: normal;
           line-height: 1.5;
-        }
       }
-      a{
-        color: $lightgrey;
-        font-size: 1.5em;
-        transition: color .5s;
-        &:hover{
-          color: #ea4c4c;
-        }
+      a.email{
+        font-size: 1.3em;
+        color: #ea4c4c;
       }
     }
   }

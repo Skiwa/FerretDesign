@@ -28,7 +28,7 @@ export class QuoteComponent implements OnInit {
         this.author = "- Tiler Q.";
         break;
       case 2:
-        this.quote = "Very easy to use. We were treated like royalty. FerretDesign is the real deal!";
+        this.quote = "Very easy to work with. We were treated like royalty. FerretDesign is the real deal!";
         this.author = "- Benito G.";
         break;
       case 3:
